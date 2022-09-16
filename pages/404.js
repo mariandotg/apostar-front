@@ -1,7 +1,11 @@
-import React from 'react'
+import { Center, Text } from '@chakra-ui/react'
 
 export default function NotFound() {
   return (
-    <div>404 - Not Found</div>
+    <Center>
+      <Text>
+        404 - Not Found
+      </Text>
+    </Center>
   )
 }
